@@ -1,8 +1,8 @@
 fun main(args: Array<String>) {
-val likes =501
+    val likes = 32
 
-    if ((likes - 1) % 10 == 0  == true && likes !== 11 )
-     println("Понравилось $likes человеку")
-       else println("Понравилось $likes людям")
 
+    if (likes % 10 == 1 && likes !== 11) {
+        println("Понравилось $likes Человеку")
+    } else println("Понравилось $likes людям")
 }
